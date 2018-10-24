@@ -1,5 +1,5 @@
 #!/bin/bash
-REPO=zhipeng
+REPO=docker-reg.emotibot.com.cn:55688
 CONTAINER=simple-python3
 TAG=$(date '+%Y%m%d')-$(git rev-parse --short HEAD)
 

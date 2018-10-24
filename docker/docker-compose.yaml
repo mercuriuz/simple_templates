@@ -1,0 +1,13 @@
+version: '2'
+services:
+    simple-python3:
+        container_name: simple-python3
+        image: zhipeng/simple-python3:20181024-b651c53
+        ports:
+        - "5000:5000"
+        restart: always
+        logging:
+          options:
+            max-size: "5M"
+            max-file: "10"
+          driver: json-file

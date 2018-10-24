@@ -201,4 +201,4 @@ class Solution:
         pattern = re.compile(r'[a-zA-Z0-9]')
         if re.findall(pattern, s):
             return ''.join(re.findall(pattern, s)).lower()
-        
+
