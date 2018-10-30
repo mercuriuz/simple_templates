@@ -162,7 +162,7 @@ class Controller():
                 hard_cnt += 1
                 difficulty_char = 'Hard'
             solution_links = '[{}](./{}/{}.{}/{}.{}'.format('python3',
-                                                            output_dir.replace('../', ''),
+                                                            output_dir.replace('../', '').replace('/', '&#x2F;'),
                                                             id_str,
                                                             result_object[num]['title'],
                                                             result_object[num]['title'],
@@ -175,7 +175,7 @@ class Controller():
                 'paid_only': ':heavy_check_mark:' if result_object[num]['paid_only'] else '',
                 'acceptance': result_object[num]['acceptance']
             })
-        sorted(solutions, key=lambda x: int(x['id']), reverse=True)
+        solutions.sort(key=lambda x:int(x['id']))
         view_data = {
             'language': 'python3',
             'total': self.data['total'],
