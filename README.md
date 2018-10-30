@@ -18,7 +18,7 @@
 |:--:|:-----:|:---------:|:----:|:----:|:----:|
 |345|[reverse-vowels-of-a-string](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[python3](./solutions/345.reverse-vowels-of-a-string/reverse-vowels-of-a-string.py|Easy|42.85%||
 |283|[move-zeroes](https://leetcode.com/problems/move-zeroes/)|[python3](./solutions/283.move-zeroes/move-zeroes.py|Easy|51.18%||
-|215|[kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[python3](./solutions/215.kth-largest-element-in-an-array/kth-largest-element-in-an-array.py|Medium|51.91%||
+|215|[kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[python3](solutions/215.kth-largest-element-in-an-array/kth-largest-element-in-an-array.py|Medium|51.91%||
 |209|[minimum-size-subarray-sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[python3](./solutions/209.minimum-size-subarray-sum/minimum-size-subarray-sum.py|Medium|34.07%||
 |167|[two-sum-ii-input-array-is-sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[python3](./solutions/167.two-sum-ii-input-array-is-sorted/two-sum-ii-input-array-is-sorted.py|Easy|41.87%||
 |125|[valid-palindrome](https://leetcode.com/problems/valid-palindrome/)|[python3](./solutions/125.valid-palindrome/valid-palindrome.py|Easy|35.47%||
